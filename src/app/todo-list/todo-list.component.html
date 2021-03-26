@@ -1,0 +1,7 @@
+<p>My Task today</p>
+<ul>
+ <li *ngFor="let drink of task" >{{drink}}</li>
+ <br>
+ <br>
+<b>Task:</b><input type="text" [(ngModel)]='drink' /><button (click)="addtask()">Add</button>
+</ul>
